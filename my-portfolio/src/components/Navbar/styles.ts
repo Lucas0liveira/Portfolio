@@ -8,7 +8,11 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0 30px;
-  box-shadow: 8px 8px 16px ${props => props.theme.colors.shadow};
+  box-shadow: 0px 4px 16px ${props => props.theme.colors.shadow};
+
+  .react-switch-bg {
+    border: 1px solid ${props => props.theme.colors.text};
+  }
 `
 export const NavLinks = styled.div`
   display: flex;
@@ -23,7 +27,7 @@ export const Link = styled.a`
   color: ${props => props.theme.colors.text};
 
   &:hover {
-    transition: 0.3s;
+    transition: 0.15s ease-out;
     color: ${props => props.theme.colors.accent};
   }
 `
@@ -40,19 +44,19 @@ export const Button = styled.button`
   cursor: pointer;
 
   &:hover {
-    transition: 0.5s;
+    transition: 0.25s ease-out;
     border: none;
-    border-radius: 50px;
     color: ${props => props.theme.colors.text};
     background-color: ${props => props.theme.colors.accent};
+
   }  
 `
 export const Select = styled.select`
-  background-color: ${props => props.theme.colors.background};
-  color: ${props => props.theme.colors.text};
-  padding: 0.5rem;
-  border: none;
-  border-radius: 6px;
+  height: 32px;
+  padding: 0 0.5rem;
   margin: 0 1rem;
-  box-shadow: 8px 8px 16px ${props => props.theme.colors.shadow};
+  background-color: ${props => props.theme.colors.primary};
+  color: ${props => props.theme.colors.text};
+  border-radius: 6px;
+  border: 1px solid ${props => props.theme.colors.text};
 `

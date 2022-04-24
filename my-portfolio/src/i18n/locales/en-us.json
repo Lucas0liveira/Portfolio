@@ -1,6 +1,11 @@
 {
   "translation": {
-    "Hi, my name is": "Hi, my name is",
-    "I make things for the web.": "I make things for the web."
+    "Hi, my name is":"Hi, my name is",
+    "I make things for the web.":"I make things for the web.",
+    "I'm a software engineer especializing in Front-end development. Currently, I'm focused on growing and maintaining a huge system at Before TI.":"I'm a software engineer especializing in Front-end development. Currently, I'm focused on growing and maintaining a huge system at Before TI.",
+    "HOME":"HOME",
+    "PROJECTS":"PROJECTS",
+    "CONTACT":"CONTACT",
+    "RESUME":"RESUME"
   }
 }

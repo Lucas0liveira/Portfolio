@@ -3,8 +3,8 @@ import { Container, NavLinks, Link, Button, Select } from  './styles'
 import Switch from 'react-switch';
 import { ThemeContext } from 'styled-components';
 import { FiSun, FiMoon, FiMenu } from 'react-icons/fi'
-import { shade } from 'polished';
 import { changeLanguage } from 'i18next';
+import { useTranslation } from 'react-i18next'
 
 interface Props {
   toggleTheme(): void;
@@ -24,21 +24,23 @@ function NavBar({ toggleTheme }: Props) {
     setLanguage(lang);
   }
 
+  const { t } = useTranslation();
+
   return (
     <Container>
       <NavLinks>
         <Link href="#home">
-          <p>HOME</p>
+          <p>{t('HOME')}</p>
         </Link>
         <Link href="#projects">
-          <p>PROJECTS</p>
+          <p>{t('PROJECTS')}</p>
         </Link>
         <Link href="#contact">
-          <p>CONTACT</p>
+          <p>{t('CONTACT')}</p>
         </Link>
       </NavLinks>
 
-      <Button> RESUME </Button>
+      <Button> {t('RESUME')} </Button>
 
       <Select
         value={language || 'enus'}
@@ -52,9 +54,9 @@ function NavBar({ toggleTheme }: Props) {
       <Switch 
         onChange={() => {toggleTheme()}}
         checked={title === 'dark'}
-        offColor={shade( 0.25, colors.primary)}
+        offColor={colors.primary}
         offHandleColor={colors.text}
-        onColor={shade( 0.35, colors.primary)}
+        onColor={colors.primary}
         onHandleColor={colors.text}
         handleDiameter={24}
         height={32}

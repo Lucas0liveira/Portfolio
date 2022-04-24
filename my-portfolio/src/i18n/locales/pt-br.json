@@ -2,6 +2,10 @@
   "translation": {
     "Hi, my name is": "Oi, meu nome é",
     "I make things for the web.": "Eu faço coisas para a web.",
-    "I'm a software engineer especializing in Front-end development. Currently, I'm focused on growing and maintaining a huge system at Before TI.": "Sou um engenheiro de software me especializando no desenvolvimento Front-end. Atualmente, estou focado em aprimorar e manter um enorme sistema como parte do time da Before TI." 
+    "I'm a software engineer especializing in Front-end development. Currently, I'm focused on growing and maintaining a huge system at Before TI.": "Sou um engenheiro de software me especializando no desenvolvimento Front-end. Atualmente, estou focado em aprimorar e manter um enorme sistema como parte do time da Before TI." ,
+    "HOME": "HOME",
+    "PROJECTS": "PROJETOS",
+    "CONTACT":"CONTATO",
+    "RESUME": "CURRÍCULO"
   }
 }
