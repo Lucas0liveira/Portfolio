@@ -6,6 +6,7 @@ import light from './styles/themes/light';
 import dark from './styles/themes/dark';
 
 import NavBar from './components/Navbar';
+import { Hero } from './components/Hero';
 
 function App() {
   const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light);
@@ -16,9 +17,11 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <div className="App">
-        <GlobalStyle />
-        <NavBar toggleTheme={toggleTheme} />
+      <GlobalStyle />
+      <NavBar toggleTheme={toggleTheme} />
+      
+      <div className="main">
+        <Hero />
       </div>
     </ThemeProvider>
   );
