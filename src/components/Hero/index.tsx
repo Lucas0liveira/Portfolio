@@ -7,7 +7,7 @@ export function Hero () {
 
   const {t} = useTranslation()
   return (
-    <Container>
+    <Container id="home">
       <p className='text'>{t('Hi, my name is')}</p>
       <p className='title'>Lucas Freitas,</p>
       <p className='subtitle'>{t('I make things for the web.')}</p>

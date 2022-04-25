@@ -10,7 +10,7 @@ interface Props {
   toggleTheme(): void;
 }
 
-function NavBar({ toggleTheme }: Props) {
+export function NavBar({ toggleTheme }: Props) {
   const { colors, title } = useContext(ThemeContext)
 
   const [language, setLanguage] = useState(() => localStorage.getItem('lang') || navigator.language)
@@ -88,5 +88,3 @@ function NavBar({ toggleTheme }: Props) {
     </Container>
   );
 }
-
-export default NavBar;

@@ -6,6 +6,19 @@
     "HOME": "HOME",
     "PROJECTS": "PROJETOS",
     "CONTACT":"CONTATO",
-    "RESUME": "CURRÍCULO"
+    "RESUME": "CURRÍCULO",
+    "Projects": "Projetos",
+    "Project": "Projeto",
+    "Description": "Descrição",
+    "Demo": "Demo",
+    "Source": "Código",
+    "Other Projects": "Outros Projetos",
+    "Contact": "Contato",
+    "Name": "Nome",
+    "Enter your name": "Digite seu nome",
+    "Email": "Email",
+    "Enter your email": "Digite seu email",
+    "Message": "Mensagem",
+    "Leave a message =)": "Deixe uma mensagem =)"
   }
 }

@@ -4,8 +4,21 @@
     "I make things for the web.":"I make things for the web.",
     "I'm a software engineer especializing in Front-end development. Currently, I'm focused on growing and maintaining a huge system at Before TI.":"I'm a software engineer especializing in Front-end development. Currently, I'm focused on growing and maintaining a huge system at Before TI.",
     "HOME":"HOME",
-    "PROJECTS":"PROJECTS",
+    "PROJECTS": "PROJECTS",
     "CONTACT":"CONTACT",
-    "RESUME":"RESUME"
+    "RESUME": "RESUME",
+    "Projects": "Projects",
+    "Project": "Project",
+    "Description": "Description",
+    "Demo": "Demo",
+    "Source": "Source",
+    "Other Projects": "Other Projects",
+    "Contact": "Contact",
+    "Name": "Name",
+    "Enter your name": "Enter your name",
+    "Email": "Email",
+    "Enter your email": "Enter your email",
+    "Message": "Message",
+    "Leave a message =)": "Leave a message =)"
   }
 }

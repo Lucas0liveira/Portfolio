@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.section`
+  position: fixed;
+  top: 0;
   height: 60px;
+  width: 100%;
   background: ${props => props.theme.colors.primary};
   color: ${props => props.theme.colors.text};
   display: flex;
